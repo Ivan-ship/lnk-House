@@ -120,3 +120,44 @@ h2, h3, h4, h5{
     max-width: 1110px;
     margin: 0 auto;
 }
+
+.cards__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.cards__text{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.cards__list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cards__btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #000;
+    background-color: #D4E8D9;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.cards__btn.active{
+    background: #376B44;
+    color: #fff;
+}
+
+.cards__btn:hover{
+    background: #376B44;
+    color: #fff;
+}
