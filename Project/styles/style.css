@@ -59,3 +59,58 @@ h2, h3, h4, h5{
     list-style: none;
 }
 
+/*Main section*/
+.bird{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(34px, 5vw, 165px);
+}
+
+.bird__container{
+    flex: 1;
+    max-width: 540px;
+}
+
+.bird__image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    flex: 1;
+    max-width: 540px;
+}
+
+.text__title{
+    font-weight: 500;
+    font-size: (32px, 4vw, 60px);
+}
+
+.is-green{
+    color: #598D66;
+}
+
+.text__subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    color: #86928B;
+    margin-bottom: 20px;
+}
+
+.bird__btn{
+    background-color: #fff;
+    color: #598D66;
+    border: 2px solid #598D66;
+    padding: 20px 60px;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.bird__btn:hover{
+    background: greenyellow;
+    transform: scale(1.2);
+}
