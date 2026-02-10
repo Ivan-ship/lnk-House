@@ -114,3 +114,9 @@ h2, h3, h4, h5{
     background: greenyellow;
     transform: scale(1.2);
 }
+
+/*Card*/
+.cards .container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
