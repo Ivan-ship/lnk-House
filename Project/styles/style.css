@@ -161,3 +161,62 @@ h2, h3, h4, h5{
     background: #376B44;
     color: #fff;
 }
+
+.blocks{
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.blocks__row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.block{
+    padding: 20px;
+    background: #E1EDE6;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.small__title{
+    font-weight: 500;
+    font-size: 18px;
+    color: #86928B;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.block__title{
+    font-weight: 500;
+    font-size: clamp(20px, 2.5vw, 30px);
+    margin-bottom: 8px;
+}
+
+.block__subtitle{
+    font-weight: 500;
+    font-size: clamp(16px, 2.5vw, 18px);
+    color: #2C2D35;
+}
+
+.price{
+    font-weight: 400;
+    font-size: clamp(18px, 2.5vw, 24px);
+    color: #598D66;
+    margin-top: auto;
+}
+
+.block__btn{
+    background-color: #E1EDE6;
+    color: #598D66;
+    border: 1px solid #598D66;
+    padding: 12px 20px;
+    margin-top: 20px;
+    width: 100%;
+}
